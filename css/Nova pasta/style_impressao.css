@@ -1,0 +1,1079 @@
+/*
+
+========== FAMÍLIA DE FONTES ==========
+
+*/
+
+.negrito {
+    font-family: 'allerbold';    
+}
+
+.negrito-italico {
+    font-family: 'allerbold_italic';    
+}
+
+.italico {
+    font-family: 'alleritalic';    
+}
+
+.leve-regular {
+    font-family: 'aller_lightregular';    
+}
+
+.leve-italico {
+    font-family: 'aller_lightitalic';    
+}
+
+.regular {
+    font-family: 'allerregular';	
+}
+
+/*
+
+========== CLASSES COMUNS ==========
+
+*/
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: 0.15px;
+    text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+
+a {
+	color: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	outline: 0;
+}
+
+a, .btn-busca, .letra div, ul.submenu li a, form.contato input.submit, .nivo-prevNav,
+.nivo-nextNav {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;	
+}
+
+img {
+	-webkit-transition: opacity 0.8s ease-in-out;
+	-moz-transition: opacity 0.8s ease-in-out;
+	-o-transition: opacity 0.8s ease-in-out;
+	transition: opacity 0.8s ease-in-out;
+	border: 0;
+}
+
+.hover:hover, form.contato input.submit:hover, .nivo-prevNav:hover,
+.nivo-nextNav:hover {
+	opacity:0.6;
+}
+
+.a-esq {
+	float: left;
+}
+
+.a-dir {
+	float: right;
+}
+
+.a-dir ol, .a-dir ul {
+	list-style: disc;
+        margin:0.5em;
+        padding:0.5em;
+}
+
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.ao-topo {
+	vertical-align: top;
+}
+
+.clear {
+	clear: both;
+}
+
+.txt-a-esq {
+	text-align: left;
+}
+
+.txt-a-dir {
+	text-align: right;
+}
+
+.interna {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.lar-720 {
+	width: 720px;
+}
+
+.lar-470 {
+	width: 470px;
+}
+
+.lar-220 {
+	width: 220px;
+}
+
+.verde {
+	color: #3d4921;
+}
+
+/* ===== MARGEM E ESPAÇAMENTO GERAIS ===== */
+
+.margem-15-lat {
+	margin: 0px 15px 0px;
+}
+
+.margem-50-15-0 {
+	margin: 50px 15px 0px;
+}
+
+.margem-45-base {
+	margin: 0px 0px 45px 0px;
+}
+
+.margem-50-base {
+	margin: 0px 0px 50px 0px;
+}
+
+.padding-22-topo {
+	padding: 22px 0px 0px 0px;
+}
+
+.padding-30-topo {
+	padding: 30px 0px 0px 0px;
+}
+
+.padding-50-0 {
+	padding: 50px 0px;
+}
+
+.margin-35-base {
+	margin: 0px 0px 35px 0px;
+}
+
+.margin-10-base {
+	margin: 0px 0px 10px 0px;
+}
+
+.padding-70-base {
+	padding: 0px 0px 70px 0px;
+}
+
+.margem-75-base {
+	margin: 0px auto 75px;
+}
+
+.padding-30-dir {
+	padding: 0px 30px 0px 0px;
+}
+
+.padding-20-0 {
+	padding: 20px 0px;
+}
+
+.padding-28-0-26 {
+	padding: 28px 0px 26px;
+}
+
+.padding-35-0-75 {
+	padding: 35px 0px 75px;
+}
+
+.padding-53-0-17 {
+	padding: 53px 0px 17px;
+}
+
+
+
+/*
+
+========== BACKGROUNDS ==========
+
+*/
+
+.sombra-esq {
+	background: url(sombra-topo.jpg) no-repeat left;
+}
+
+.btn-busca {
+	background: url(btn-busca.jpg) no-repeat;	
+}
+
+#slider{height:475px;overflow:hidden}
+
+.bg-slider {
+	background: url(bg-slider.jpg) no-repeat;	
+	background-position: 50% 50%;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+
+.sombra {
+	background: url(sombra.jpg) no-repeat;	
+	background-position: 50% 50%;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;	
+}
+
+.bg-pontilhado {
+	background: url(bg-areas.jpg) no-repeat;
+	background-position: 50% 50%;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;		
+}
+
+.seta-verde {
+	background: url(seta-verde.jpg) no-repeat right;
+}
+
+ul.submenu li a {
+	background: url(sub-normal.jpg) no-repeat;	
+}
+
+ul.submenu a.atual {
+	background: url(sub-hover.jpg) no-repeat;
+}
+
+.mais {
+	background: url(amais.jpg) no-repeat;
+}
+
+.normal {
+	background: url(anormal.jpg) no-repeat;
+}
+
+.menos {
+	background: url(amenos.jpg) no-repeat;
+}
+
+.anterior {
+	background: url(seta-cinza.jpg) no-repeat right;
+}
+
+.bg-pontilhado2 {
+	background: url(bg-pontilhado.jpg) no-repeat;
+	background-position: 50% 50%;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;		
+}
+
+.lista div.accordion {
+	background: url(btn-veja-mais-normal.jpg) no-repeat;	
+}
+
+.lista div.accordion:hover, .lista div.atual {
+	background: url(btn-veja-mais-hover.jpg) no-repeat;	
+}
+
+ul.lista{
+        list-style:none;
+        margin:0;
+        padding:0
+}
+
+.seta.anterior {
+	background: url(btn-voltar-tudo.jpg) no-repeat;
+}
+
+.btn-pagina-anterior {
+	background: url(btn-voltar-pagina.jpg) no-repeat;
+}
+
+.seta.proximo {
+	background: url(btn-avancar-tudo.jpg) no-repeat;
+}
+
+.btn-proxima-pagina {
+	background: url(btn-avancar.jpg) no-repeat;
+}
+
+.btn-down {
+	background: url(btn-download.jpg) no-repeat;
+}
+
+.submit {
+	background: url(btn-voltar-pagina.jpg) no-repeat;
+}
+
+/*
+
+========== INFO TOPO ==========
+
+*/
+
+.info-topo span {
+	font-size: 0.9375em;	
+	color: #999999;
+}
+
+.info {
+	padding: 17px 11px;
+}	
+
+.numeros {
+	width: 371px;
+}
+
+.horario {
+	width: 333px;
+}
+
+.links-int {
+	color: #3d4921;
+}
+
+/*
+
+========== LOGO, EMERGÊNCIA E BUSCA ==========
+
+*/
+
+.logo-e-busca {
+	padding: 37px 0px 25px;
+}
+
+.logo {
+	padding: 0px 0px 0px 15px;
+}
+
+.emergencia {
+	padding: 0px 30px 0px 0px;
+}
+
+/* ========== INPUT DE BUSCA ========== */
+
+.input-busca {
+	width: 182px;
+	margin: 0;
+	padding: 10px;
+	border: 2px solid #f7f7f7;	
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.05);
+	-moz-box-shadow:    1px 1px 5px rgba(50, 50, 50, 0.15);
+	box-shadow:         1px 1px 5px rgba(50, 50, 50, 0.05);
+}
+
+/* ===== COR DO PLACEHOLDER ===== */
+
+.input-busca::-webkit-input-placeholder {
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 
+	color: #999999;
+}
+
+.input-busca:-moz-placeholder { /* Firefox 18- */
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 		
+	color: #999999;  
+}
+
+.input-busca::-moz-placeholder {  /* Firefox 19+ */
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 		
+	color: #999999;  
+}
+
+.input-busca:-ms-input-placeholder {  
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 		
+	color: #999999;  
+}
+
+/* ===== BOTÃO ===== */
+
+.btn-busca {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	margin: 0;
+	border: 0;
+}
+
+/*
+
+========== SLIDER ==========
+
+*/
+
+.bg-slider {
+	height: 475px;
+}
+
+/*
+
+========== MENU ==========
+
+*/
+
+.menu {
+	text-align: center;
+	color: #999999;
+}
+
+.atual {
+	color: #3d4921;
+}
+
+.menu a:hover {
+	color: #3d4921;
+}
+
+.menu ul li {
+	display: inline-block;
+	padding: 0px 15px;
+}
+
+.sombra {
+	height: 10px;
+	margin: 17px 0px 40px;
+}
+
+/*
+
+========== CONVENIOS E NÚMEROS ==========
+
+*/
+
+.area-convenios {
+	width: 220px;
+	float: left;
+	margin: 0px 0px 0px 15px;	
+	padding: 93px 0px 0px 0px;
+	color: #3d4921;
+}
+
+.label {
+	padding: 0px 20px 0px 0px;
+}
+
+.marcacao {
+	width: 704px;
+	height: 169px;
+	float: right;
+	margin: 0px 30px 0px 0px;
+}
+
+/* ========== ESTILIZANDO O SELECT ========== */
+
+.style-select2 {
+	width: 220px;
+	float: left;
+    font-family: 'aller_lightregular';
+    background: url(seta-baixo.jpg) no-repeat right;
+	color: #999999;	
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.05);
+	-moz-box-shadow:    1px 1px 5px rgba(50, 50, 50, 0.15);
+	box-shadow:         1px 1px 5px rgba(50, 50, 50, 0.05);
+}
+
+select.select2 {
+    -webkit-appearance: none;
+    -moz-appearance: window;
+    background: transparent;
+	width: 220px;
+	float: left;
+	padding: 10px;
+	border: 2px solid #f7f7f7;	
+    font-family: 'aller_lightregular';
+	color: #999999;	
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.05);
+	-moz-box-shadow:    1px 1px 5px rgba(50, 50, 50, 0.15);
+	box-shadow:         1px 1px 5px rgba(50, 50, 50, 0.05);
+}
+
+/*
+
+========== AREAS ==========
+
+*/
+
+.bg-pontilhado {
+	height: 240px;
+	margin: 40px 0px 20px;
+	font-size: 1.125em;
+	color: #3d4921;	
+}
+
+.area {
+	width: 220px;
+	float: left;
+}
+
+.seta-verde {
+	padding: 0 20px 0 0px;
+}
+
+.outras-areas {
+	font-size: 1.125em;
+	color: #3d4921;		
+}
+
+.area2 {
+	float: left;
+}
+
+/*
+
+========== ARTIGOS ==========
+
+*/
+
+.lista-artigos {
+	text-align: center;
+}
+
+.lista-artigos article {
+	width: 300px;
+	margin: 0px 15px;
+	display: inline-block;
+	text-align: left;
+}
+
+.lista-artigos .titulo {
+	font-size: 1em;
+	color: #3d4921;
+	padding: 0px 0px 20px;
+}
+
+.lista-artigos p {
+	font-size: 0.9375em;	
+	color: #666666;
+	padding: 0px 0px 20px;
+}
+
+.lista-artigos img {
+	width: 300px;
+	height: 151px;
+}
+
+.artigos-interna article {
+	padding: 50px 0px 0px 0px;
+        vertical-align: top;
+}
+
+/*
+
+========== GOOGLE MAP ==========
+
+*/
+
+.gmap {
+	font-size: 1.125em;
+	color: #3d4921;	
+}
+
+.mapa {
+	height: 400px;
+	border-style: solid;
+	border-width: 1px 0px;
+	border-color: #3d4921;
+}
+
+/*
+
+========== INFO RODAPE ==========
+
+*/
+
+.info-rodape {
+	width: 750px;
+	float: left;
+	margin: 0px 0px 0px 15px;	
+	color: #999999;
+}
+
+.info-rodape p {
+    font-family: 'aller_lightregular';	
+}
+
+.info-rodape span {
+    font-family: 'allerbold';	
+}
+
+.logo-peq {
+	width: 118px;
+	float: right;
+	padding: 160px 0px 0px 0px;
+}
+
+/*
+
+========== MIGALHA ==========
+
+*/
+
+.migalha h3 {
+	padding: 0px 0px 15px;
+	font-size: 1.875em;
+	color: #999999;	
+}
+
+.migalha span {
+	display: inline-block;
+    font-family: 'allerregular';
+}
+
+span.anterior {
+	color: #999999;
+	padding: 15px 15px 15px 0px;	
+}
+
+.migalha span.atual {
+	color: #3d4921;
+	padding: 15px 15px 15px 5px;
+}
+
+.letra {
+	padding: 15px 0px 0px 0px;	
+}
+
+.letra div {
+	width: 40px;
+	height: 40px;
+	float: right;
+	cursor: pointer;
+}
+
+.letra div:hover {
+	opacity: 0.6;
+}
+
+/*
+
+========== SUBMENU ==========
+
+*/
+
+.menu-interno {
+	width: 220px;
+	margin: 0px 15px;
+}
+
+.submenu li {
+	width: 220px;
+	height: 40px;
+	font-size: 0.875em;
+}
+
+.submenu a {
+	width: 190px;
+	height: 14px;
+	padding: 11px 15px 15px 15px;
+	display: block;
+	color: #ffffff;
+}
+
+/*
+
+========== CONTEÚDO ==========
+
+*/
+
+.conteudo {
+	padding: 0px 0px 50px 0px;
+        line-height:23px;
+}
+
+.conteudo {
+	font-size: 0.9375em;	
+	color: #999999;	
+}
+
+.conteudo p{
+        padding:5px 0;
+}
+
+.conteudo a:hover{
+        text-decoration:underline;
+}
+
+span.quote {
+	width: 230px;
+	font-size: 0.9375em;
+	color: #999999;
+}
+
+.bg-pontilhado2 {
+	height: 75px;
+}
+
+/*
+
+========== OUTRAS INFORMAÇÕES ==========
+
+*/
+
+.outras-informacoes div.sub-t {
+	font-size: 0.875em;
+}
+
+.lista div.accordion {
+	width: 680px;
+	height: 22px;
+	padding: 9px 25px 9px 15px;
+	display: block;
+	color: #fff;
+	font-family: 'allerbold';
+        cursor:pointer;
+}
+
+.informacoes {
+	display: none;	
+	padding: 20px;
+}
+
+.informacoes ul {
+	color: #999999;
+	list-style-type: disc;
+}
+
+/*
+
+========== PASSADORES ==========
+
+*/
+
+.passadores {
+	padding: 35px 0px 75px 0px;
+}
+
+.passador {
+	width: 300px;
+	height: 40px;
+}
+
+.passador2 {
+	width: 210px;
+	height: 40px;
+}
+
+.passador div a {
+	display: block;
+}
+
+.seta.anterior {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 0px 10px 0px 0px;	
+}
+
+.seta.proximo {
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+.btn-pagina-anterior {
+	width: 174px;
+	height: 20px;
+	padding: 10px 10px 10px 66px;
+	float: left;
+}
+
+.passador2 .btn-pagina-anterior {
+	width: 120px;
+	height: 20px;
+	padding: 10px 10px 10px 20px;
+	float: left;
+}
+
+.btn-proxima-pagina {
+	width: 174px;
+	height: 20px;
+	padding: 10px 10px 10px 66px;
+	float: right;
+}
+
+.passador2 .btn-proxima-pagina {
+	width: 120px;
+	height: 20px;
+	padding: 10px 10px 10px 20px;
+	float: right;
+}
+
+.btn-pagina-anterior, .btn-proxima-pagina {
+	color: #fff;
+	font-size: 0.875em;	
+}
+
+
+/*
+
+========== NUMERAÇÃO ==========
+
+*/
+
+.numeracao {	
+	height: 30px;
+	color: #999999;
+	padding: 5px 0px;
+	text-align: center;
+        width:340px;
+}
+
+.numeracao li {
+	display: inline-block;
+	padding: 0px 4px;
+}
+
+.numeracao a.atual {
+	font-size: 1.375em;
+	color: #3d4921;
+}
+
+.numeracao a:hover {
+	font-size: 1.375em;
+	color: #3d4921;
+}
+
+/*
+
+========== DOWNLOADS ==========
+
+*/
+
+.btn-down {
+	width: 265px;
+	height: 50px;
+	display: block;
+}
+
+.area-downloads article {
+	padding: 45px 0px;
+}
+
+.area-downloads div.area-texto {
+	width: 670px;
+}
+
+.area-downloads h3 {
+    font-family: 'allerregular';	
+	color: #3d4921;
+}
+
+.area-downloads p {
+    font-family: 'aller_lightregular'; 	
+    color: #999999;
+    padding: 15px 0px 0px 0px;
+}
+
+
+/*
+
+========== FORMULÁRIO ==========
+
+*/
+
+/* ========== INPUT DE BUSCA ========== */
+
+form.contato {
+	width: 470px;
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 
+	color: #999999;
+}
+
+form.contato input, form.contato textarea {
+	width: 446px;
+	float: left;
+	margin: 5px 0px;
+	padding: 10px;
+	border: 2px solid #f7f7f7;	
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.05);
+	-moz-box-shadow:    1px 1px 5px rgba(50, 50, 50, 0.15);
+	box-shadow:         1px 1px 5px rgba(50, 50, 50, 0.05);
+}
+
+form.contato textarea {
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 
+	color: #999999;	
+	resize: none;
+}
+
+form.contato span {
+	margin: 11px 0px;
+}
+
+form.contato input.checkbox {
+	width: 25px;
+	height: 25px;
+	float: left;
+	border: 2px solid #f7f7f7;	
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.05);
+	-moz-box-shadow:    1px 1px 5px rgba(50, 50, 50, 0.15);
+	box-shadow:         1px 1px 5px rgba(50, 50, 50, 0.05);	
+}
+
+form.contato input.submit {
+	width: 250px;
+	height: 40px;
+	float: right !important;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 5px 0px;
+}
+
+.aviso {
+	width: 150px;
+	padding: 210px 0px 0px 20px;
+	color: #999999;
+}
+
+/* ===== ESTILIZANDO O SELECT ===== */
+
+.style-select {
+	width: 470px;
+	float: left;
+    font-family: 'aller_lightregular';
+    background: url(seta-baixo.jpg) no-repeat right;
+	color: #999999;	
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.05);
+	-moz-box-shadow:    1px 1px 5px rgba(50, 50, 50, 0.15);
+	box-shadow:         1px 1px 5px rgba(50, 50, 50, 0.05);
+}
+
+select.select {
+    -webkit-appearance: none;
+    -moz-appearance: window;
+    background: transparent;
+	width: 470px;
+	float: left;
+	padding: 10px;
+	border: 2px solid #f7f7f7;	
+    font-family: 'aller_lightregular';
+	color: #999999;	
+	vertical-align: top;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 5px rgba(50, 50, 50, 0.05);
+	-moz-box-shadow:    1px 1px 5px rgba(50, 50, 50, 0.15);
+	box-shadow:         1px 1px 5px rgba(50, 50, 50, 0.05);
+}
+
+.styled-select option {
+    color: #000;        
+}
+
+
+/* ===== COR DO PLACEHOLDER ===== */
+
+form.contato input::-webkit-input-placeholder {
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 
+	color: #999999;
+}
+
+form.contato input::-moz-placeholder { /* Firefox 18- */
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 		
+	color: #999999;  
+}
+
+form.contato input::-moz-placeholder {  /* Firefox 19+ */
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 		
+	color: #999999;  
+}
+
+form.contato input::-ms-input-placeholder {  
+	font-size: 0.9375em;
+    font-family: 'aller_lightregular'; 		
+	color: #999999;  
+}
+
+/* ===== BOTÃO ===== */
+
+.btn-busca {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	margin: 0;
+	border: 0;
+}
+
+/* @group Album view classes */
+.photoAlbumEntry {
+    float: left;
+    position:relative;
+    overflow: hidden;
+    height: 220px;
+    width: 171px;
+    margin: 0em;
+    padding: 0px 9px 0px 0px;
+    text-align: center;
+    background-image: url('polaroid-single.png');
+    background-repeat: no-repeat;
+}
+.photoAlbumEntry img {
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+.photoAlbumEntryWrapper {
+    /*display: block;*/
+    height: 114px;
+    width: 152px;
+    margin-bottom: 7px;
+}
+.photoAlbumEntry a {
+    display: block;
+    text-decoration: none;
+    font-size: 90%;
+    height: 155px;
+    width: 152px;
+    margin: 16px auto 0px;
+}
+.photoAlbumFolder {
+    background-image: url('polaroid-multi.png');
+    background-repeat: no-repeat;
+}
+.photoAlbumEntryTitle {
+    color: #76797c;
+    display: block;
+    width: 152px;
+    height: 3.6em;
+}
+
+/* @end */

@@ -1,0 +1,74 @@
+<div class="container">
+<h1>EXAMES.PHP</h1>
+      <!-- LADO ESQUERDO -->
+      <div class="col-md-3">
+
+        <!-- SUBMENU -->
+        <aside class="menu-interno">
+          <ul class="submenu negrito">
+                  <?php
+        $args = array(
+          'order' => 'ASC',
+          'post_type' => 'exames',
+          // 'post_parent' => $post->ID,
+          'post_status' => 'publish',
+          'posts_per_page' => -1
+        );
+        $myposts = get_posts( $args );
+        foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+            <li class="menu1">
+             
+               <a class="hover" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+             
+             
+            </li>
+        <?php endforeach; wp_reset_postdata();?>
+          </ul>
+        </aside>
+        <div class="clear"></div>
+
+        <!-- FIM SUBMENU -->
+
+      </div>
+      <!-- FIM LADO ESQUERDO -->
+
+      <!-- LADO DIREITO -->
+      <div class="col-md-9 col-xs-12">
+<section class="conteudo aumentar-fonte leve-regular lar-720 margem-15-lat">
+          <article>          
+            
+            <div class="margin-10-base"></div>
+             <ul class="lista">
+                                  <?php
+        $args = array(
+          'order' => 'ASC',
+          'post_type' => 'exames',
+          'post_parent' => $post->post_parent,
+          'post_status' => 'publish',
+          'post_per_page' => -1
+        );
+        $myposts = get_posts( $args );
+        foreach ( $myposts as $post ) : setup_postdata( $post ); ?>       
+              
+               <li class="item">
+               <div class="regular verde seta-verde inline-block"><?php the_title(); ?></div>
+                <div class="accordion"><?php the_title() ?></div>
+                <div class="informacoes">
+                  
+                 <?php the_content(); ?>
+                </div>
+               </li>
+                  <?php endforeach; wp_reset_postdata();?>     
+            </ul>            
+          </article>
+
+          <div id="passador" class="passadores negrito">
+    
+ 
+    <div class="clear"></div>
+</div>
+        </section>        
+
+      </div>    
+        <div class="clear"></div>
+      </div>
